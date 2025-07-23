@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "proyek-aplikasi-keuangan",
+    "title": {
+      "id": "Aplikasi Manajemen Keuangan",
+      "en": "Financial Management App"
+    },
+    "category": {
+      "id": "Aplikasi Mobile",
+      "en": "Mobile App"
+    },
+    "thumbnail": "/images/work/pro.jpeg",
+    "summary": {
+      "id": "Aplikasi lintas platform untuk membantu pengguna melacak pengeluaran dan anggaran secara real-time.",
+      "en": "A cross-platform app that helps users track expenses and budgets in real-time."
+    },
+    "techStack": ["React Native", "Firebase", "Figma"],
+    "details": {
+      "role": "Full-Stack Developer & UI Designer",
+      "year": "2024",
+      "description": {
+        "id": "Proyek ini bertujuan menciptakan solusi sederhana bagi generasi muda dalam mengelola keuangan. Saya bertanggung jawab mulai dari desain UI/UX di Figma, pengembangan React Native, hingga integrasi Firebase.",
+        "en": "This project aims to create a simple solution for young people to manage their finances. I was responsible for everything from UI/UX design in Figma, React Native development, to Firebase integration."
+      },
+      "images": [
+        "/images/work/pro.jpeg",
+        "/images/work/pro.jpeg"
+      ],
+      "sourceLink": "https://github.com/dummy/keuangan-app",
+      "previewLink": "https://keuangan-app.dummy.live"
+    }
+  }
+]

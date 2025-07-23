@@ -1,0 +1,44 @@
+[
+  {
+    "src": "/images/gallery/ui-design-1.jpg",
+    "title": "Desain Aplikasi Musik",
+    "category": "UI Design",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "/images/gallery/branding-1.jpg",
+    "title": "Identitas Merek Kopi",
+    "category": "Branding",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "/images/gallery/illustration-1.jpg",
+    "title": "Ilustrasi Pemandangan Kota",
+    "category": "Illustration",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "src": "/images/gallery/ui-design-2.jpg",
+    "title": "Dasbor Analitik",
+    "category": "UI Design",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "src": "/images/gallery/branding-2.jpg",
+    "title": "Logo Perusahaan Teknologi",
+    "category": "Branding",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "/images/gallery/illustration-2.jpg",
+    "title": "Karakter Robot",
+    "category": "Illustration",
+    "width": 1080,
+    "height": 1350
+  }
+]

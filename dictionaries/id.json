@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "work": "Karya",
+    "blog": "Blog",
+    "gallery": "Galeri"
+  },
+  "home": {
+    "leftColumn": {
+      "greeting": "Halo, saya",
+      "name": "M. Diki  Fahriza",
+      "roles": [
+        "Pecinta Kopi + Rokok Sejati",
+        "Desainer UI/UX Kreatif",
+        "Web Developer Andal",
+        "Peternak Keren",
+        "Tukang Ketik dan Penerjemah"
+      ],
+      "description": "Hai, selamat datang! Di sini aku ngumpulin berbagai proyek, eksperimen, dan ide-ide seru yang pernah aku kerjain—mulai dari aplikasi lelang, game interaktif, sampai hal-hal kecil yang lahir dari rasa penasaran. Aku percaya belajar itu nggak harus jenius, asal konsisten dan niat. Yuk, eksplorasi bareng isi kepala dan karya-karyaku!"
+    }
+  },
+"aboutPage": {
+  "title": "M. Diki Fahriza",
+  "subtitle": "Pecinta Kopi, Web Developer, dan Eksperimentator Digital",
+  "bioTitle": "Biografi",
+  "bio": "Halo! Saya M. Diki Fahriza, seorang pengembang web yang gemar mengeksplorasi berbagai teknologi digital. Sejak beberapa tahun terakhir, saya telah mengerjakan berbagai proyek pribadi mulai dari sistem manajemen sederhana hingga aplikasi berbasis web interaktif. Ketertarikan saya pada dunia teknologi dibentuk dari rasa ingin tahu yang tinggi dan semangat untuk terus mencoba hal-hal baru.",
+  "bio2": "Di luar dunia pengembangan, saya aktif sebagai petani dan peternak, serta terlibat dalam kegiatan sosial dan kerja-kerja pengawasan demokrasi. Saya percaya bahwa dunia digital dan kehidupan nyata bisa berjalan berdampingan untuk menciptakan masa depan yang lebih baik.",
+  
+  "skillsTitle": "Keahlian & Teknologi",
+  
+  "experienceTitle": "Pengalaman & Pendidikan",
+  "timeline": [
+    {
+      "role": "Petani / Peternak",
+      "company": "Mandiri",
+      "date": "2021 - Sekarang",
+      "description": "Mengelola kegiatan pertanian dan peternakan skala kecil dengan pendekatan eksperimen berkelanjutan untuk efisiensi dan produktivitas."
+    },
+    {
+      "role": "Staf Panwaslu Kecamatan Talun",
+      "company": "Pilkada Serentak 2024",
+      "date": "2024 - 2025",
+      "description": "Mendukung tugas pengawasan pemilu tingkat kecamatan dalam menjaga integritas demokrasi lokal."
+    },
+    {
+      "role": "Freelancer Web Developer & Translator",
+      "company": "Remote / Online",
+      "date": "2023 - Sekarang",
+      "description": "Mengerjakan proyek-proyek digital lepas, mulai dari penerjemahan, penulisan, hingga pembuatan website statis dan dinamis."
+    },
+    {
+      "role": "Mahasiswa Teknik Informatika",
+      "company": "Universitas Islam Balitar (Unisba Blitar)",
+      "date": "2023 - Sekarang",
+      "description": "Sedang menempuh pendidikan di bidang Teknik Informatika, dengan fokus pada pemrograman, pengembangan aplikasi, dan teknologi web."
+    },
+    {
+      "role": "Siswa MAN 1 Blitar",
+      "company": "Madrasah Aliyah Negeri",
+      "date": "2018 - 2021",
+      "description": "Mengembangkan ketertarikan pada dunia teknologi dan pemikiran kritis melalui kegiatan akademik dan organisasi."
+    },
+    {
+      "role": "Siswa MTs Al Muhtaduun",
+      "company": "Madrasah Tsanawiyah",
+      "date": "2015 - 2018",
+      "description": "Menimba ilmu dasar keislaman dan mulai aktif dalam kegiatan belajar mandiri dan eksplorasi teknologi."
+    },
+    {
+      "role": "Siswa MI Al Muhtaduun",
+      "company": "Madrasah Ibtidaiyah",
+      "date": "2009 - 2015",
+      "description": "Menempuh pendidikan dasar dan menanamkan nilai-nilai kedisiplinan serta spiritualitas."
+    }
+  ],
+
+  "hobbiesTitle": "Hobi",
+  "hobbies": [
+    "Membaca buku dan artikel berbagai topik",
+    "Utak-atik perangkat lunak dan sistem",
+    "Bereksperimen dan mencoba hal-hal baru"
+  ],
+
+  "socialsTitle": "Sosial Media",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/mdikifahriza1/",
+    "facebook": "https://www.facebook.com/singkonggoreng1003/",
+    "youtube": "https://www.youtube.com/@mdikifahriza",
+    "instagram": "https://www.instagram.com/mencari.senja0?igsh=MWFzbGVqNWg5NzUzYg==",
+    "whatsapp": "https://wa.me/6282228028674"
+  }
+
+}
+,
+  "blogPage": {
+    "title": "Blog & Artikel",
+    "subtitle": "Pikiran, ide, dan tutorial seputar teknologi dan desain."
+  },
+  "galleryPage": {
+    "title": "Galeri Karya",
+    "subtitle": "Koleksi desain, branding, dan ilustrasi yang pernah saya buat."
+  },
+  "workPage": {
+    "list": {
+      "title": "Karya Pilihan",
+      "subtitle": "Berikut adalah beberapa proyek yang pernah saya kerjakan."
+    },
+    "detail": {
+      "sidebarTitle": "Detail Proyek",
+      "roleLabel": "Peran",
+      "yearLabel": "Tahun",
+      "techLabel": "Teknologi",
+      "aboutTitle": "Tentang Proyek",
+      "galleryTitle": "Galeri Proyek"
+    }
+  }
+}

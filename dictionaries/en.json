@@ -1,0 +1,112 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "work": "Works",
+    "blog": "Blog",
+    "gallery": "Gallery"
+  },
+  "home": {
+    "leftColumn": {
+      "greeting": "Hello, I'm",
+      "name": "M. Diki Fahriza",
+      "roles": [
+        "True Coffee + Cigarette Lover",
+        "Creative UI/UX Designer",
+        "Reliable Web Developer",
+        "Cool Farmer",
+        "Typist and Translator"
+      ],
+      "description": "Hi, welcome! Here I've gathered various projects, experiments, and exciting ideas I've worked on—from auction apps, interactive games, to small things born from curiosity. I believe learning doesn't require genius, just consistency and determination. Let's explore my thoughts and works together!"
+    }
+  },
+  "aboutPage": {
+    "title": "M. Diki Fahriza",
+    "subtitle": "Coffee Lover, Web Developer, and Digital Experimenter",
+    "bioTitle": "Biography",
+    "bio": "Hello! I'm M. Diki Fahriza, a web developer who loves exploring various digital technologies. For the past few years, I've worked on various personal projects ranging from simple management systems to interactive web-based applications. My interest in the world of technology is shaped by high curiosity and a passion for constantly trying new things.",
+    "bio2": "Outside the world of development, I am active as a farmer and breeder, and involved in social activities and democratic oversight work. I believe that the digital world and real life can go hand in hand to create a better future.",
+    "skillsTitle": "Skills & Technologies",
+    "experienceTitle": "Experience & Education",
+    "timeline": [
+  {
+    "role": "Petani / Peternak",
+    "company": "Mandiri",
+    "date": "2021 - Sekarang",
+    "description": "Managing small-scale farming and livestock activities using a sustainable experimental approach for better efficiency and productivity."
+  },
+  {
+    "role": "Staf Panwaslu Kecamatan Talun",
+    "company": "Pilkada Serentak 2024",
+    "date": "2024 - 2025",
+    "description": "Supporting election monitoring tasks at the subdistrict level to uphold the integrity of local democracy."
+  },
+  {
+    "role": "Freelancer Web Developer & Translator",
+    "company": "Remote / Online",
+    "date": "2023 - Sekarang",
+    "description": "Working on freelance digital projects, including translation, writing, and building static and dynamic websites."
+  },
+  {
+    "role": "Mahasiswa Teknik Informatika",
+    "company": "Universitas Islam Balitar (Unisba Blitar)",
+    "date": "2023 - Sekarang",
+    "description": "Currently pursuing a degree in Informatics Engineering, focusing on programming, application development, and web technologies."
+  },
+  {
+    "role": "Siswa MAN 1 Blitar",
+    "company": "Madrasah Aliyah Negeri",
+    "date": "2018 - 2021",
+    "description": "Developed an interest in technology and critical thinking through academic and organizational activities."
+  },
+  {
+    "role": "Siswa MTs Al Muhtaduun",
+    "company": "Madrasah Tsanawiyah",
+    "date": "2015 - 2018",
+    "description": "Studied basic Islamic knowledge and began engaging in independent learning and technology exploration."
+  },
+  {
+    "role": "Siswa MI Al Muhtaduun",
+    "company": "Madrasah Ibtidaiyah",
+    "date": "2009 - 2015",
+    "description": "Completed primary education while cultivating discipline and spiritual values."
+  }
+    ],
+    "hobbiesTitle": "Hobbies",
+    "hobbies": [
+      "Reading books and articles on various topics",
+      "Tinkering with software and systems",
+      "Experimenting and trying new things"
+    ],
+    "socialsTitle": "Social Media",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/mdikifahriza1/",
+      "facebook": "https://www.facebook.com/singkonggoreng1003/",
+      "youtube": "https://www.youtube.com/@mdikifahriza",
+      "instagram": "https://www.instagram.com/mencari.senja0?igsh=MWFzbGVqNWg5NzUzYg==",
+      "whatsapp": "https://wa.me/6282228028674"
+    }
+  },
+  "blogPage": {
+    "title": "Blog & Articles",
+    "subtitle": "Thoughts, ideas, and tutorials on technology and design."
+  },
+  "galleryPage": {
+    "title": "Work Gallery",
+    "subtitle": "A collection of designs, branding, and illustrations I've created."
+  },
+  "workPage": {
+    "list": {
+      "title": "Selected Works",
+      "subtitle": "Here are some projects I've worked on."
+    },
+    "detail": {
+      "sidebarTitle": "Project Details",
+      "roleLabel": "Role",
+      "yearLabel": "Year",
+      "techLabel": "Technology",
+      "aboutTitle": "About the Project",
+      "galleryTitle": "Project Gallery"
+    }
+  }
+}
