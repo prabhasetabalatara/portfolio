@@ -18,10 +18,16 @@ type Project = {
   summary: LocalizedText;
 };
 
-export default function WorkView({ projects, lang }: { projects: Project[], lang: 'id' | 'en' }) {
+interface WorkViewProps {
+  projects: Project[];
+  lang: 'id' | 'en';
+  allLabel: string; // ✅ diterima dari luar
+}
+
+export default function WorkView({ projects, lang, allLabel }: WorkViewProps) {
   const getCategory = (p: Project) => p.category[lang];
 
-  const allLabel = lang === 'id' ? 'Semua' : 'All';
+  // ✅ Gunakan allLabel dari props
   const allCategories = [allLabel, ...Array.from(new Set(projects.map(getCategory)))];
   const [filter, setFilter] = useState(allCategories[0]);
 
@@ -72,7 +78,9 @@ export default function WorkView({ projects, lang }: { projects: Project[], lang
                   <span className="text-sm font-semibold text-cyan-400 mb-1">
                     {project.category[lang]}
                   </span>
-                  <h3 className="text-2xl font-bold text-white mb-3">{project.title[lang]}</h3>
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    {project.title[lang]}
+                  </h3>
                   <p className="text-[var(--foreground)] flex-grow">
                     {project.summary[lang]}
                   </p>
