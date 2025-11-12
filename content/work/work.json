@@ -50,6 +50,39 @@
     }
   },
   "projects": [
+        {
+      "slug": "dpmunisba",
+      "title": {
+        "id": "Web DPM UNISBA",
+        "en": "Web DPM UNISBA"
+      },
+      "category": {
+        "id": "Next.js",
+        "en": "Next.js"
+      },
+      "thumbnail": "/images/work/1212.PNG",
+      "summary": {
+        "id": "Situs ini adalah laman resmi DPM UNISBA Blitar (Dewan Perwakilan Mahasiswa di Universitas Islam Balitar) yang memuat berbagai informasi seperti berita terkini, peraturan, agenda kegiatan, galeri foto, serta saluran untuk menyampaikan aspirasi mahasiswa. Situs ini bertujuan menjadi wadah komunikasi antara mahasiswa, organisasi, dan pihak kampus.",
+        "en": "This is the official website of the Student Representative Council (DPM) at UNISBA Blitar, containing sections for latest news, regulations, event agendas, photo galleries, and a channel for student feedback/aspirations. It serves as a communication hub between students, the organization, and the university."
+      },
+      "techStack": ["Next.js", "React", "Tailwind CSS"],
+      "details": {
+        "role": {
+          "id": "Full-Stack Developer",
+          "en": "Full-Stack Developer"
+        },
+        "year": "2025",
+        "description": {
+          "id": "Situs ini adalah laman resmi DPM UNISBA Blitar (Dewan Perwakilan Mahasiswa di Universitas Islam Balitar) yang memuat berbagai informasi seperti berita terkini, peraturan, agenda kegiatan, galeri foto, serta saluran untuk menyampaikan aspirasi mahasiswa. Situs ini bertujuan menjadi wadah komunikasi antara mahasiswa, organisasi, dan pihak kampus",
+          "en": "This is the official website of the Student Representative Council (DPM) at UNISBA Blitar, containing sections for latest news, regulations, event agendas, photo galleries, and a channel for student feedback/aspirations. It serves as a communication hub between students, the organization, and the university."
+        },
+        "images": [
+          "/images/work/1121.PNG",
+          "/images/work/2121.PNG"
+        ],
+        "previewLink": "https://dpmunisba.vercel.app/"
+      }
+    },
     {
       "slug": "ternak",
       "title": {
@@ -222,3 +255,4 @@
     }
   ]
 }
+
