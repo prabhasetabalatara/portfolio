@@ -1,0 +1,224 @@
+{
+  "hero": {
+    "title": {
+      "id": "Projek",
+      "en": "Projects"
+    },
+    "description": {
+      "id": "Berikut adalah beberapa proyek yang pernah saya kerjakan.",
+      "en": "Here are some of the projects I've worked on."
+    }
+  },
+  "filter": {
+    "allLabel": {
+      "id": "Semua",
+      "en": "All"
+    }
+  },
+  "detail": {
+    "sidebarTitle": {
+      "id": "Detail Proyek",
+      "en": "Project Details"
+    },
+    "roleLabel": {
+      "id": "Peran",
+      "en": "Role"
+    },
+    "yearLabel": {
+      "id": "Tahun",
+      "en": "Year"
+    },
+    "techLabel": {
+      "id": "Teknologi",
+      "en": "Tech Stack"
+    },
+    "aboutTitle": {
+      "id": "Tentang Proyek",
+      "en": "About Project"
+    },
+    "galleryTitle": {
+      "id": "Galeri Gambar",
+      "en": "Image Gallery"
+    },
+    "sourceCode": {
+      "id": "Kode Sumber",
+      "en": "Source Code"
+    },
+    "livePreview": {
+      "id": "Lihat Demo",
+      "en": "Live Preview"
+    }
+  },
+  "projects": [
+    {
+      "slug": "ternak",
+      "title": {
+        "id": "Aplikasi Ternak",
+        "en": "Livestock App"
+      },
+      "category": {
+        "id": "PHP Native",
+        "en": "PHP Native"
+      },
+      "thumbnail": "/images/work/1-1.webp",
+      "summary": {
+        "id": "Aplikasi manajemen ternak untuk memantau hewan dan produktivitasnya.",
+        "en": "Livestock management app to monitor animals and productivity."
+      },
+      "techStack": ["PHP Native", "MySQL", "HTML/CSS"],
+      "details": {
+        "role": {
+          "id": "Full-Stack Developer",
+          "en": "Full-Stack Developer"
+        },
+        "year": "2024",
+        "description": {
+          "id": "Proyek ini bertujuan untuk membantu peternak memantau ternak mereka dengan mudah. Saya mengembangkan seluruh aplikasi menggunakan PHP dan MySQL.",
+          "en": "This project aims to help farmers monitor their livestock easily. I developed the entire app using PHP and MySQL."
+        },
+        "images": [
+          "/images/work/1-2.webp",
+          "/images/work/1-3.webp"
+        ],
+        "sourceLink": "https://github.com/mdikifahriza/ternak",
+        "previewLink": ""
+      }
+    },
+    {
+      "slug": "perpus",
+      "title": {
+        "id": "Aplikasi Perpustakaan",
+        "en": "Library App"
+      },
+      "category": {
+        "id": "PHP Native",
+        "en": "PHP Native"
+      },
+      "thumbnail": "/images/work/f2.webp",
+      "summary": {
+        "id": "Perpus Digital PDF",
+        "en": "Digital Library PDF"
+      },
+      "techStack": ["PHP Native", "MySQL", "HTML/CSS"],
+      "details": {
+        "role": {
+          "id": "Full-Stack Developer",
+          "en": "Full-Stack Developer"
+        },
+        "year": "2024",
+        "description": {
+          "id": "Membuat aplikasi perpustakaan gratis untuk mempermudah download buku.",
+          "en": "Built a free library app to simplify book downloading ."
+        },
+        "images": [
+          "/images/work/f2.webp",
+          "/images/work/ff.webp"
+        ],
+        "sourceLink": "https://github.com/mdikifahriza/perpusgratis",
+        "previewLink": ""
+      }
+    },
+    {
+      "slug": "web-gmni-t2p2",
+      "title": {
+        "id": "Web GMNI t2p2",
+        "en": "GMNI t2p2 Website"
+      },
+      "category": {
+        "id": "Next.js",
+        "en": "Next.js"
+      },
+      "thumbnail": "/images/work/3.PNG",
+      "summary": {
+        "id": "Website resmi GMNI t2p2 untuk informasi dan kegiatan organisasi.",
+        "en": "Official GMNI t2p2 website for information and organizational activities."
+      },
+      "techStack": ["Next.js", "React", "Tailwind CSS"],
+      "details": {
+        "role": {
+          "id": "Full-Stack Developer",
+          "en": "Full-Stack Developer"
+        },
+        "year": "2025",
+        "description": {
+          "id": "Website ini menampilkan profil, berita, dan kegiatan GMNI t2p2 secara interaktif.",
+          "en": "This website displays the profile, news, and activities of GMNI t2p2 interactively."
+        },
+        "images": [
+          "/images/work/3.PNG",
+          "/images/work/6.PNG",
+          "/images/work/7.PNG"
+        ],
+        "sourceLink": "https://github.com/mdikifahriza/t2p2solid",
+        "previewLink": "https://t2p2solid.online"
+      }
+    },
+    {
+      "slug": "portofolio-pribadi",
+      "title": {
+        "id": "Portofolio/Web Pribadi",
+        "en": "Personal Portfolio/Web"
+      },
+      "category": {
+        "id": "Next.js",
+        "en": "Next.js"
+      },
+      "thumbnail": "/images/work/1.PNG",
+      "summary": {
+        "id": "Portofolio pribadi yang menampilkan berbagai data diri",
+        "en": "Personal portfolio showcasing my bbiodata."
+      },
+      "techStack": ["Next.js", "React", "Tailwind CSS"],
+      "details": {
+        "role": {
+          "id": "Full-Stack Developer",
+          "en": "Full-Stack Developer"
+        },
+        "year": "2025",
+        "description": {
+          "id": "Portofolio ini menampilkan ringkasan semua proyek saya dengan link GitHub dan demo live.",
+          "en": "This portfolio showcases a summary of all my projects with GitHub links and live demos."
+        },
+        "images": [
+          "/images/work/1.PNG",
+          "/images/work/8.PNG"
+        ],
+        "sourceLink": "https://github.com/mdikifahriza/portofolio",
+        "previewLink": "https://portfolio-rust-two-19.vercel.app/"
+      }
+    },
+    {
+      "slug": "kunjungi-github",
+      "title": {
+        "id": "Kunjungi Proyek Saya di GitHub",
+        "en": "Visit My Projects on GitHub"
+      },
+      "category": {
+        "id": "Lainnya",
+        "en": "Others"
+      },
+      "thumbnail": "/images/work/4.PNG",
+      "summary": {
+        "id": "Semua proyek saya tersedia di GitHub untuk dilihat lebih lanjut.",
+        "en": "All my projects are available on GitHub for further viewing."
+      },
+      "techStack": [],
+      "details": {
+        "role": {
+          "id": "Pemilik Repository",
+          "en": "Repository Owner"
+        },
+        "year": "2024-2025",
+        "description": {
+          "id": "Anda dapat melihat seluruh proyek saya yang lain di GitHub.",
+          "en": "You can view all my other projects on GitHub."
+        },
+        "images": [
+          "/images/work/4.PNG"
+        ],
+        "sourceLink": "https://github.com/mdikifahriza",
+        "previewLink": ""
+      }
+    }
+  ]
+}
