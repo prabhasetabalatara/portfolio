@@ -3,23 +3,20 @@ import path from 'path';
 
 const workDirectory = path.join(process.cwd(), 'content', 'work');
 
-// Tipe bilingual
 interface LangText {
   id: string;
   en: string;
 }
 
-// Struktur detail proyek
 interface ProjectDetails {
-  role: string;
+  role: LangText;
   year: string;
   description: LangText;
   images: string[];
-  sourceLink: string;
-  previewLink: string;
+  sourceLink?: string;
+  previewLink?: string;
 }
 
-// Struktur utama proyek
 export interface Project {
   slug: string;
   title: LangText;
@@ -30,28 +27,41 @@ export interface Project {
   details: ProjectDetails;
 }
 
-// Ambil semua proyek (untuk list/preview)
-export function getAllProjects(): Project[] {
-  const fullPath = path.join(workDirectory, 'projects.json');
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const projects: Project[] = JSON.parse(fileContents);
-
-  return projects.map((project) => ({
-    slug: project.slug,
-    title: project.title,
-    category: project.category,
-    thumbnail: project.thumbnail,
-    summary: project.summary,
-    techStack: project.techStack,
-    details: project.details
-  }));
+export interface WorkData {
+  hero: {
+    title: LangText;
+    description: LangText;
+  };
+  filter: {
+    allLabel: LangText;
+  };
+  detail: {
+    sidebarTitle: LangText;
+    roleLabel: LangText;
+    yearLabel: LangText;
+    techLabel: LangText;
+    aboutTitle: LangText;
+    galleryTitle: LangText;
+    sourceCode: LangText;
+    livePreview: LangText;
+  };
+  projects: Project[];
 }
 
-// Ambil proyek berdasarkan slug (untuk detail halaman)
-export function getProjectBySlug(slug: string, _lang: string): Project | null {
-  const fullPath = path.join(workDirectory, 'projects.json');
+export function getWorkData(): WorkData {
+  const fullPath = path.join(workDirectory, 'work.json');
   const fileContents = fs.readFileSync(fullPath, 'utf8');
-  const projects: Project[] = JSON.parse(fileContents);
+  const data: WorkData = JSON.parse(fileContents);
+  
+  return data;
+}
 
-  return projects.find((project) => project.slug === slug) || null;
+export function getAllProjects(): Project[] {
+  const data = getWorkData();
+  return data.projects;
+}
+
+export function getProjectBySlug(slug: string): Project | null {
+  const data = getWorkData();
+  return data.projects.find((project) => project.slug === slug) || null;
 }
